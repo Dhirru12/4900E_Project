@@ -1,0 +1,12 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     parking_manager_linux
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x1000037A0, symSize: 0x4D0 }
+  - { offsetInCU: 0x4D, offset: 0x4D, size: 0x8, addend: 0x0, symName: _g_state, symObjAddr: 0x3190, symBinAddr: 0x100008008, symSize: 0x0 }
+  - { offsetInCU: 0x1C5, offset: 0x1C5, size: 0x8, addend: 0x0, symName: _g_stop, symObjAddr: 0x45E8, symBinAddr: 0x100009460, symSize: 0x0 }
+  - { offsetInCU: 0x1F1, offset: 0x1F1, size: 0x8, addend: 0x0, symName: _g_listen_fd, symObjAddr: 0x6E4, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x59D, offset: 0x59D, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x1000037A0, symSize: 0x4D0 }
+  - { offsetInCU: 0x9F9, offset: 0x9F9, size: 0x8, addend: 0x0, symName: _pm_log, symObjAddr: 0x504, symBinAddr: 0x100003CA4, symSize: 0xD8 }
+  - { offsetInCU: 0xCA0, offset: 0xCA0, size: 0x8, addend: 0x0, symName: _on_signal, symObjAddr: 0x4D0, symBinAddr: 0x100003C70, symSize: 0x34 }
+...
